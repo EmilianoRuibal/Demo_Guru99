@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[======Launch Browser======]]>
@@ -7,134 +7,20 @@
     <line>
       <![CDATA[======Navegador Cerrado======]]>
     </line>
-    <line>
-      <![CDATA[======Launch Browser======]]>
-    </line>
-    <line>
-      <![CDATA[======Navegador Cerrado======]]>
-    </line>
-    <line>
-      <![CDATA[======Launch Browser======]]>
-    </line>
-    <line>
-      <![CDATA[======Navegador Cerrado======]]>
-    </line>
-    <line>
-      <![CDATA[======Launch Browser======]]>
-    </line>
-    <line>
-      <![CDATA[======Navegador Cerrado======]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-08-07T12:37:07 ART" name="Suite" finished-at="2024-08-07T12:37:28 ART" duration-ms="20712">
+  <suite started-at="2024-08-07T20:49:49 ART" name="Default suite" finished-at="2024-08-07T20:50:07 ART" duration-ms="17796">
     <groups>
     </groups>
-    <test started-at="2024-08-07T12:37:07 ART" name="Test" finished-at="2024-08-07T12:37:28 ART" duration-ms="20712">
-      <class name="pruebas.SSR2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pruebas.SSR2@1e0b4072]" started-at="2024-08-07T12:37:15 ART" name="setup" finished-at="2024-08-07T12:37:18 ART" duration-ms="3618" status="PASS">
+    <test started-at="2024-08-07T20:49:49 ART" name="Default test" finished-at="2024-08-07T20:50:07 ART" duration-ms="17796">
+      <class name="pruebas.SSR1_inicioSesionExitoso">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pruebas.SSR1_inicioSesionExitoso@290222c1]" started-at="2024-08-07T20:49:50 ART" name="setup" finished-at="2024-08-07T20:50:04 ART" duration-ms="13638" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======Launch Browser======]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="iniciarSesion(java.lang.String,java.lang.String)[pri:1, instance:pruebas.SSR2@1e0b4072]" started-at="2024-08-07T12:37:18 ART" name="iniciarSesion" data-provider="Datos Login Excel" finished-at="2024-08-07T12:37:19 ART" duration-ms="470" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jupemym]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iniciarSesion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pruebas.SSR2@1e0b4072]" started-at="2024-08-07T12:37:19 ART" name="tearDown" finished-at="2024-08-07T12:37:19 ART" duration-ms="142" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[======Navegador Cerrado======]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- pruebas.SSR2 -->
-      <class name="pruebas.SSR3">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pruebas.SSR3@791f145a]" started-at="2024-08-07T12:37:19 ART" name="setup" finished-at="2024-08-07T12:37:23 ART" duration-ms="3709" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[======Launch Browser======]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="iniciarSesion(java.lang.String,java.lang.String)[pri:0, instance:pruebas.SSR3@791f145a]" started-at="2024-08-07T12:37:23 ART" name="iniciarSesion" data-provider="Datos Login Excel" finished-at="2024-08-07T12:37:23 ART" duration-ms="465" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr583930]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iniciarSesion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pruebas.SSR3@791f145a]" started-at="2024-08-07T12:37:23 ART" name="tearDown" finished-at="2024-08-07T12:37:23 ART" duration-ms="131" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[======Navegador Cerrado======]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- pruebas.SSR3 -->
-      <class name="pruebas.SSR4">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pruebas.SSR4@38cee291]" started-at="2024-08-07T12:37:23 ART" name="setup" finished-at="2024-08-07T12:37:27 ART" duration-ms="3805" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[======Launch Browser======]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="iniciarSesion(java.lang.String,java.lang.String)[pri:0, instance:pruebas.SSR4@38cee291]" started-at="2024-08-07T12:37:27 ART" name="iniciarSesion" data-provider="Datos Login Excel" finished-at="2024-08-07T12:37:28 ART" duration-ms="528" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iniciarSesion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pruebas.SSR4@38cee291]" started-at="2024-08-07T12:37:28 ART" name="tearDown" finished-at="2024-08-07T12:37:28 ART" duration-ms="207" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[======Navegador Cerrado======]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- pruebas.SSR4 -->
-      <class name="pruebas.SSR1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pruebas.SSR1@49049a04]" started-at="2024-08-07T12:37:08 ART" name="setup" finished-at="2024-08-07T12:37:13 ART" duration-ms="4398" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[======Launch Browser======]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="iniciarSesion(java.lang.String,java.lang.String)[pri:0, instance:pruebas.SSR1@49049a04]" started-at="2024-08-07T12:37:13 ART" name="iniciarSesion" data-provider="Datos Login Excel" finished-at="2024-08-07T12:37:15 ART" duration-ms="2020" status="PASS">
+        <test-method signature="iniciarSesion(java.lang.String,java.lang.String)[pri:0, instance:pruebas.SSR1_inicioSesionExitoso@290222c1]" started-at="2024-08-07T20:50:04 ART" name="iniciarSesion" data-provider="Datos Login Excel" finished-at="2024-08-07T20:50:07 ART" duration-ms="3278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,14 +36,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciarSesion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pruebas.SSR1@49049a04]" started-at="2024-08-07T12:37:15 ART" name="tearDown" finished-at="2024-08-07T12:37:15 ART" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pruebas.SSR1_inicioSesionExitoso@290222c1]" started-at="2024-08-07T20:50:07 ART" name="tearDown" finished-at="2024-08-07T20:50:07 ART" duration-ms="162" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======Navegador Cerrado======]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pruebas.SSR1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- pruebas.SSR1_inicioSesionExitoso -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

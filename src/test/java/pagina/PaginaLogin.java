@@ -13,34 +13,34 @@ import base.BaseTest;
 
 
 public class PaginaLogin extends BaseTest{
-    private WebDriverWait espera;
+    private WebDriverWait wait;
     
 	//Elementos Web
-	private By txtUserIDBy = By.name("uid");
-    private By txtPasswordBy = By.name("password");
-    private By btnLoginBy = By.name("btnLogin");
+	private By useridFieldBy = By.name("uid");
+    private By passwordFieldBy = By.name("password");
+    private By loginButtonBy = By.name("btnLogin");
     
 	//Constructor
 	public PaginaLogin(WebDriver driver) {
-		this.espera = new WebDriverWait(driver, Duration.ofSeconds(10));
+		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
 	
 	//Acciones sobre los elementos
-	public PaginaLogin escribirUsuer(String userID) {
-		WebElement txtUserID = espera.until(ExpectedConditions.visibilityOfElementLocated(txtUserIDBy));
-		txtUserID.sendKeys(userID);
+	public PaginaLogin enterUser(String userID) {
+		WebElement useridField = wait.until(ExpectedConditions.visibilityOfElementLocated(useridFieldBy));
+		useridField.sendKeys(userID);
 		return this;
 	}
 	
-	public PaginaLogin escribirPass(String password) {
-		WebElement txtPassword = espera.until(ExpectedConditions.visibilityOfElementLocated(txtPasswordBy));
-		txtPassword.sendKeys(password);
+	public PaginaLogin enterPassword(String password) {
+		WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(passwordFieldBy));
+		passwordField.sendKeys(password);
 		return this;
 	}
 	
-	public PaginaLogin clickLogin() {
-		WebElement btnLogin = espera.until(ExpectedConditions.elementToBeClickable(btnLoginBy)); 
-		btnLogin.click();
+	public PaginaLogin clickLoginButton() {
+		WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(loginButtonBy)); 
+		loginButton.click();
 		return this;
 	}
 

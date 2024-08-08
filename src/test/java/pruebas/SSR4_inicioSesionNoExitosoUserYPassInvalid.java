@@ -10,16 +10,16 @@ import base.BaseTest;
 import pagina.PaginaLogin;
 
 public class SSR4_inicioSesionNoExitosoUserYPassInvalid extends BaseTest{
-	String archivoDatos = "..\\Demo_Guru99\\Datos\\Datos_Login.xlsx";
+	String archivoDatos = "..\\Demo_Guru100\\Datos\\Datos_Login.xlsx";
 	
 	@Test(dataProvider="Datos Login Excel")
 	public void iniciarSesion(String userID, String password) {
 		PaginaLogin login = new PaginaLogin(driver);
-		login.escribirUsuer(userID);
-		login.escribirPass(password);
-		login.clickLogin();
+		login.enterUser(userID);
+		login.enterPassword(password);
+		login.clickLoginButton();
 		
-		// Esperado mensaje de alerta
+		// Mensaje esperado de alerta
         String msjEsperado = "User or Password is not valid";
         // Cambia el foco a la alerta
         Alert alerta = driver.switchTo().alert();
