@@ -11,7 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import base.BaseTest;
 
 public class PaginaPrincipal extends BaseTest{
-    private WebDriverWait wait;
+	private WebDriverWait wait;
+	
 	//Elementos Web
 	private By mangerIdMessageBy = By.cssSelector("[class='heading3'] td");
 	
