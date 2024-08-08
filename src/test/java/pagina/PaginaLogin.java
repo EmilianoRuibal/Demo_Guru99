@@ -13,13 +13,13 @@ import base.BaseTest;
 
 
 public class PaginaLogin extends BaseTest{
-    private WebDriverWait wait;
-    
-	//Elementos Web
+	private WebDriverWait wait;
+	
+    	//Elementos Web
 	private By useridFieldBy = By.name("uid");
-    	private By passwordFieldBy = By.name("password");
-    	private By loginButtonBy = By.name("btnLogin");
-    
+	private By passwordFieldBy = By.name("password");
+	private By loginButtonBy = By.name("btnLogin");
+	
 	//Constructor
 	public PaginaLogin(WebDriver driver) {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
