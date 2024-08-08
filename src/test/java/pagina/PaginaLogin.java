@@ -17,8 +17,8 @@ public class PaginaLogin extends BaseTest{
     
 	//Elementos Web
 	private By useridFieldBy = By.name("uid");
-    private By passwordFieldBy = By.name("password");
-    private By loginButtonBy = By.name("btnLogin");
+    	private By passwordFieldBy = By.name("password");
+    	private By loginButtonBy = By.name("btnLogin");
     
 	//Constructor
 	public PaginaLogin(WebDriver driver) {
